@@ -11,3 +11,6 @@ Make sure the `image: pydio/cells:arm` in `docker-compose.yaml` is the same as w
 
 For the jq, please refer to https://github.com/jqlang/jq/releases.
 
+## Requirements
+Pydio consumes a lot of memory and CPU, please make sure you have at least 4 cores CPU and 2 GB memory.   
+If you have a host that only have 1G of physical memory, it is recommended to add at least 2G of swap memory in advance.
